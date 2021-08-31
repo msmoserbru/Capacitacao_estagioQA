@@ -7,8 +7,8 @@ describe('Primeira ETAPA', () => {
     it('Exercício 1', () => {
         cy.visit('http://zero.webappsecurity.com/');
         cy.get('#signin_button').click();
-    })
-    
+    }
+       
     it('Exercício 2', () => {
         cy.visit('http://zero.webappsecurity.com/');
         cy.get('#signin_button').click();
