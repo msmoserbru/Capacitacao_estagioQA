@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('Primeira etapa', () => {
+describe('Etapa 1 - Zero Bank', () => {
 
 it('Exercício 1 - Abrir site e clicar botao signIn', () => {
     cy.visit ('http://zero.webappsecurity.com/')
@@ -46,5 +46,5 @@ it ('Exercício 4 - Clear', () => {
     cy.get('#subject').should('have.value', '');
     cy.get('#comment').should('have.value', '');
 })
-
+    
 })
