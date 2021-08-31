@@ -10,4 +10,5 @@ describe('ETAPA FINAL', () => {
         cy.get(':nth-child(3) > :nth-child(1) > #dismissible > .text-wrapper > #meta > #title-wrapper > .title-and-badge > #video-title > yt-formatted-string.style-scope').should('have.text', 'Miçanga · BaianaSystem · Antonio Carlos & Jocafi.');
         cy.screenshot();
     })
+    
 })
